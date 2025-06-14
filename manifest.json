@@ -1,0 +1,18 @@
+// ============ manifest.json ============
+{
+  "manifest_version": 3,
+  "name": "Tab Productivity Tracker",
+  "version": "1.0",
+  "description": "Track time spent on websites to improve focus and productivity.",
+  "permissions": ["tabs", "storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
